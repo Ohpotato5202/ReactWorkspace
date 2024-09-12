@@ -1,0 +1,8 @@
+{ //파일 검사할 떄 이 속성 기준으로 검사하게 됨. 
+  "compilerOptions": {   
+    "target": "es2016",   //ts -> js로 바꿔주는 가장 최신 파일                               /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */ 
+    "module": "commonjs", // 모듈 시스템                               /* Specify what module code is generated. */
+    "strictNullChecks": true, // 엄격 null체크 
+    "noImplicitReturns": true // 함수 반환형과 관련된 속성 
+  }
+}

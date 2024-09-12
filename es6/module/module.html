@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="./esm.js"></script>
+    <script type="module">
+        import dd, {sayHi, fn1, abc, fn2} from './esm.js'; // dd, 원하는대로 새롭게 작명할 수 있다. 
+        sayHi();
+        fn1(1);
+        fn2(dd);
+    </script>
+</head>
+<body>
+    하이
+</body>
+</html>
